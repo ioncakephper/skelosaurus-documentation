@@ -1,0 +1,15 @@
+Usage: skelo command [options] outlineFiles...
+
+Skeleton documentation generator for Docusaurus (v2 and v1)
+
+Options:
+  -V, --version                 output the version number
+  -h, --help                    display help for command
+
+Commands:
+  build [options] <sources...>  build doc files and sidebars file
+  load [options]                load documentation parts into respective
+                                files
+  save [options]                save documentation parts into respective
+                                files
+  help [command]                display help for command

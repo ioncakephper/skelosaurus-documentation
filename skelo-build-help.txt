@@ -1,0 +1,17 @@
+Usage: skelo build [options] <sources...>
+
+build doc files and sidebars file
+
+Options:
+  -c, --clear           start with a clear docs path
+  -d, --docs <path>     path where markdown files are generated into (default:
+                        "./docs")
+  -f, --autofolder      create subfolder for categories and subtopics (default:
+                        false)
+  -i, --intro           create an Intro page in each subcategory
+  --introTitle [title]  title to use in intro pages (default: "Overview")
+  --no-v2               generate for Docusaurus v1
+  -o, --out <filename>  filename to contains sidebars (default: "sidebars")
+  -p, --parts [path]    path where parts will be stored (default: "./")
+  -w, --website <path>  path to store sidebars content file (default: "./")
+  -h, --help            display help for command
