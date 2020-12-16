@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{74:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/skelosaurus-documentation/blog/welcome"},{"title":"Hello","permalink":"/skelosaurus-documentation/blog/hello-world"},{"title":"Hola","permalink":"/skelosaurus-documentation/blog/hola"}]}')}}]);
