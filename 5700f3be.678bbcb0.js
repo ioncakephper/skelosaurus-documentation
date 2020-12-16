@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{77:function(o){o.exports=JSON.parse('{"allTagsPath":"/skelosaurus-documentation/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/skelosaurus-documentation/blog/tags/hello"}')}}]);
