@@ -6,28 +6,14 @@ sidebar_label: Quick skelo demo
 
 <!-- @part src="../../website-parts/quick-skelo-demo/h1-quick-skelo-demo-description.md" -->
 
-Build a skeleton documentation quickly using `skelo` and a documentation outline file. View the documentation just as easily when you run Docusaurus development server.
-
+Ullamco do magna amet reprehenderit enim consequat Lorem sit officia cupidatat et labore ex. Non ut sunt ut incididunt Lorem veniam incididunt laboris. Exercitation sint incididunt ipsum aliqua consequat quis do cillum ipsum in et. Ea dolore amet cupidatat do velit voluptate ad commodo labore. Irure eu dolor ullamco exercitation dolore et aute cillum minim incididunt excepteur exercitation magna sunt.
 <!-- @/part -->
 
 <!-- @part src="../../website-parts/quick-skelo-demo/h1-quick-skelo-demo-body.md" -->
 <!-- Your content goes here, replacing this comment -->
-<!-- @/part -->
 
-## Skeleton documentation in four steps
-<!-- @part src="..\..\website-parts/skeleton-documentation-in-four-steps/h2-skeleton-documentation-in-four-steps-description.md" -->
-Building a skeleton documentation is quite easy. You need a documentation outline written with easy-to follow Markdown notation. The outline indicates the sidebar name and its outline as bullet list. Top level items are major sections in the navigation bar, while indented bullet lists indicate topics in each section, or subsections, etc. A special item introduces headers inside a topic. We will cover these concepts in this quick demo.
-<!-- @/part -->
+## Step 1: Create working folder and scaffold Docusaurus v2 project
 
-### Step 1: Create working folder and scaffold Docusaurus v2 project
-<!-- @part src="..\..\website-parts/step-1-create-working-folder-and-scaffold-docusaurus-v2-project/h3-step-1-create-working-folder-and-scaffold-docusaurus-v2-project-description.md" -->
-
-<!-- @/part -->
-
-
-
-<!-- @part src="..\..\website-parts/step-1-create-working-folder-and-scaffold-docusaurus-v2-project/h3-step-1-create-working-folder-and-scaffold-docusaurus-v2-project-body.md" -->
-<!-- Your content goes here, replacing this comment -->
 ```bash
 mkdir my-project
 cd my-project
@@ -40,17 +26,8 @@ npx @docusaurus/init@latest init website classic
 :::info More of npx-ing Docusaurus 2
 Learn more about scaffolding a Docusaurus v2 project with `npx` at [Docusaurus v2 Installation](https://v2.docusaurus.io/docs/installation#scaffold-project-website).
 :::
-<!-- @/part -->
 
-### Step 2: Create documentation outline file
-<!-- @part src="..\..\website-parts/step-2-create-documentation-outline-file/h3-step-2-create-documentation-outline-file-description.md" -->
-
-<!-- @/part -->
-
-
-
-<!-- @part src="..\..\website-parts/step-2-create-documentation-outline-file/h3-step-2-create-documentation-outline-file-body.md" -->
-<!-- Your content goes here, replacing this comment -->
+## Step 2: Create documentation outline file
 
 Create `my-project/website-outline.md` and paste the following content:
 
@@ -69,17 +46,8 @@ Create `my-project/website-outline.md` and paste the following content:
 
 ```
 
-<!-- @/part -->
+## Step 3: Use skelo to generate files
 
-### Step 3: Use skelo to generate files
-<!-- @part src="..\..\website-parts/step-3-use-skelo-to-generate-files/h3-step-3-use-skelo-to-generate-files-description.md" -->
-
-<!-- @/part -->
-
-
-
-<!-- @part src="..\..\website-parts/step-3-use-skelo-to-generate-files/h3-step-3-use-skelo-to-generate-files-body.md" -->
-<!-- Your content goes here, replacing this comment -->
 In `my-project`, run `skelo build`:
 
 ```bash
@@ -125,17 +93,9 @@ module.exports = {
 ```
 
 Remember, you can get help on `build` sub-command: `skelo help build`.
-<!-- @/part -->
 
-### Step 4: View skeleton documentation on development server
-<!-- @part src="..\..\website-parts/step-4-view-skeleton-documentation-on-development-server/h3-step-4-view-skeleton-documentation-on-development-server-description.md" -->
+## Step 4: View skeleton documentation on development server
 
-<!-- @/part -->
-
-
-
-<!-- @part src="..\..\website-parts/step-4-view-skeleton-documentation-on-development-server/h3-step-4-view-skeleton-documentation-on-development-server-body.md" -->
-<!-- Your content goes here, replacing this comment -->
 1. Edit `website/docusaurus.config.js` to configure documentation title and `Docs` top navigation item.
 
 Replace:
@@ -197,23 +157,9 @@ Your browser opens at http://localhost:3000/. Click `Docs` to view documentation
 ![Website documentation overview](../static/img/website-documentation-overview.png)
 
 The Overview page contains `Lorem ipsum` text. It helps you get a sense how your documentation looks.
-<!-- @/part -->
 
+## Topic title and headers
 
-
-<!-- @part src="..\..\website-parts/skeleton-documentation-in-four-steps/h2-skeleton-documentation-in-four-steps-body.md" -->
-<!-- Your content goes here, replacing this comment -->
-<!-- @/part -->
-
-## Custom topic title, topic headers
-<!-- @part src="..\..\website-parts/custom-topic-title-topic-headers/h2-custom-topic-title-topic-headers-description.md" -->
-
-<!-- @/part -->
-
-
-
-<!-- @part src="..\..\website-parts/custom-topic-title-topic-headers/h2-custom-topic-title-topic-headers-body.md" -->
-<!-- Your content goes here, replacing this comment -->
 Click `Installation` and see a custom topic title, two headers, and `Lorem ipsum` text as defined in `my-project/website-outline.md`:
 
 ![Website installation topic](../static/img/website-installation-topic.png)
@@ -221,5 +167,6 @@ Click `Installation` and see a custom topic title, two headers, and `Lorem ipsum
 * @t following `Installation` specifies the title appearing on the outline's item documentation page.
 * @headers entry followed by two indented items indicate the headers to include in `Installation` topic.
 * `Lorem ipsum` text is generated automatically under title and each headers. However, there is way to include the brief description text for a topic or headers.
+
 <!-- @/part -->
 

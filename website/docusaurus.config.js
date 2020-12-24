@@ -1,14 +1,15 @@
 module.exports = {
   title: 'Skelosaurus',
   tagline: 'Skeleton documentation generator for Docusaurus-powered projects',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://skelosaurus.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ioncakephper', // Usually your GitHub org/user name.
+  projectName: 'skelosaurus-documentation', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: 'Skelosaurus',
       logo: {
@@ -22,9 +23,14 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'docs/release-notes/overview',
+          label: 'Release notes',
+          position: 'left',
+        },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ioncakephper/skelosaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -51,15 +57,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/skelosaurus',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/xpf5YYCm5b',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/skelosaurus',
             },
           ],
         },
@@ -72,12 +78,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ioncakephper/skelosaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Skelosaurus, Inc. Built with Docusaurus. Outlined with Skelosaurus.`,
     },
   },
   presets: [
@@ -88,13 +94,15 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/ioncakephper/skelosaurus-documentation/edit/master/website/',
+            // 'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/ioncakephper/skelosaurus-documentation/edit/master/website/blog/',
+            // 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

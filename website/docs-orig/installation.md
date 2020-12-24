@@ -1,12 +1,12 @@
 ---
-title: How to install Skelosaurus
+title: Installation
 id: installation
 sidebar_label: Installation
 ---
 
 <!-- @part src="../../website-parts/installation/h1-installation-description.md" -->
 
-Skelosaurus is a package with an executable script. To run the executable script, you have to install the package globally.
+Deserunt eu culpa qui aliquip cillum elit sit non ut ipsum nostrud reprehenderit et. Pariatur adipisicing cupidatat laborum non ea aute eu amet proident velit exercitation esse ad eu. Duis irure do cillum esse et exercitation aliqua enim minim nostrud sint laborum. Veniam et adipisicing ad aute Lorem. Pariatur elit sint aute magna commodo sunt eu elit veniam exercitation irure est aute quis.
 <!-- @/part -->
 
 <!-- @part src="../../website-parts/installation/h1-installation-body.md" -->
@@ -15,30 +15,30 @@ Skelosaurus is a package with an executable script. To run the executable script
 
 ## Installing Skelosaurus
 <!-- @part src="..\..\website-parts/installing-skelosaurus/h2-installing-skelosaurus-description.md" -->
-
+<!-- Dolore amet deserunt non tempor eiusmod proident magna velit proident ea. Id fugiat qui proident culpa esse. Qui incididunt nisi ipsum aute dolore. Ipsum tempor aliquip deserunt ex eiusmod proident dolore eiusmod consequat nulla ullamco. Ut tempor qui veniam deserunt sit magna veniam irure ullamco adipisicing aliqua aliquip ullamco. -->
 <!-- @/part -->
 
 
 
 <!-- @part src="..\..\website-parts/installing-skelosaurus/h2-installing-skelosaurus-body.md" -->
 <!-- Your content goes here, replacing this comment -->
-Install `skelosaurus` package globally:
+Install `skelosaurusv2` package globally:
 
 ```bash
-npm i -g skelosaurus
+npm i -g skelosaurusv2
 ```
 
 `skelo` command is now available anywhere on your local computer.
 <!-- @/part -->
 
-## Verifying skelo runs
-<!-- @part src="..\..\website-parts/verifying-skelo-runs/h2-verifying-skelo-runs-description.md" -->
-
+## Check skelo runs
+<!-- @part src="..\..\website-parts/check-skelo-runs/h2-check-skelo-runs-description.md" -->
+Labore mollit ut laborum exercitation velit consectetur veniam. Cupidatat nostrud deserunt ipsum mollit commodo dolor velit laborum fugiat occaecat et incididunt in sunt. Occaecat do velit enim proident consequat ad. Et commodo cupidatat ut aliqua ut. Laboris et tempor aliquip eu laborum elit aute anim magna incididunt veniam labore commodo amet.
 <!-- @/part -->
 
 
 
-<!-- @part src="..\..\website-parts/verifying-skelo-runs/h2-verifying-skelo-runs-body.md" -->
+<!-- @part src="..\..\website-parts/check-skelo-runs/h2-check-skelo-runs-body.md" -->
 <!-- Your content goes here, replacing this comment -->
 - A quick method to check you can use `skelo` is to get `skelo`'s version.
 
