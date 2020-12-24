@@ -174,6 +174,6 @@ module.exports = {
 
 ```
 
-Deploy `Skelosaurus` documentation -- follow steps in step 2 in **Edit Skelosaurus documentation** 
+Deploy `Skelosaurus` documentation -- follow steps in step 2 in [**Edit Skelosaurus documentation**](https://github.com/ioncakephper/skelosaurus-documentation/blob/master/README.md#edit-skelosaurus-documentation)
 
 
