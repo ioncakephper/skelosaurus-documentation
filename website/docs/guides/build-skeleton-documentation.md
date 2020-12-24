@@ -6,11 +6,20 @@ sidebar_label: Build skeleton documentation
 
 <!-- @part src="../../website-parts/build-skeleton-documentation/h1-build-skeleton-documentation-description.md" -->
 
-Building documentation skeleton with Skelosaurus is a fairy straighforward process. You describe sidebar outline in a outline file using Markdown, and use `skelo` to build documentation files `Docusaurus` uses to build the documentation. Turn to Docusaurus to show the documentation on the development server. That's it!
+Building documentation skeleton with Skelosaurus is a fairy straighforward process. You describe sidebar outline in an outline file using Markdown, and use `skelo` to build documentation files `Docusaurus` uses to build the documentation. Start the development server Docusaurus provides to show the documentation. That's it!
 
 Examine the documentation skeleton and decide what changes to make in sidebar design, topic headers number or content. Make changes to outline file, and rebuild documentation skeleton. When happy with how documentation skeleton looks, you can edit the documentation files using your favorite editor for Markdown.
 
 Content writers familiar with Docusaurus will see the the immediate benefits on development life cycle, and will have no problem using a documentation skelelon with Docusaurus v2.
+
+This guide helps you create a documentation skeleton from scratch, including Docusaurus installation, writing the outline file, running `skelo`, and viewing generated documentation on development server.
+
+## Let's check what we need
+
+You will need:
+
+- Nodejs version 10.13.0 or recent -- check node version with `node -v`. 
+- Ability to run the `npx` command -- `npx` allows you to run packages from npm repository without downloading them on your machine.
 
 <!-- @/part -->
 
@@ -53,7 +62,7 @@ In `website` folder, create `outline.md`:
 - Guides
 	- Configure your software
 ```
-In the level two heading at the top of the file, we placed the sidebar name. The 
+In the level two heading at the top of the file, we placed the sidebar name.
 
 <!-- @/part -->
 
