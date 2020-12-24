@@ -12,10 +12,10 @@ module.exports = {
         "Guides": [
             "guides/outline-and-tags",
             "guides/build-skeleton-documentation",
-            "guides/saving-and-loading-topic-content"
+            // "guides/saving-and-loading-topic-content"
         ],
         "API": [
-            "api/cli",
+            // "api/cli",
             "api/api"
         ]
     },
