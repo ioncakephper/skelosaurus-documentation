@@ -259,6 +259,29 @@ Create folder based on outline item, or use the `@slug` value.
 		- Third guide @b This is stored in the other-guide/third-guide.md
 ```
 
+### @headers
+
+Provide topic header outline on following lines.
+
+The `@headers` tag appear on a line of its own, as a subitem of the topic. Following lines include the headers outline as a bullet list inside `@headers`
+
+**Usage**: - @headers
+
+**Example**:
+
+```md
+...
+	- Topic
+		- @headers
+			- Header 1 inside Topic
+				- Subheader 1 inside Header 1
+				- Subheader 2 inside Header 1
+			- Header 2 inside Topic
+			- Header 3 Inside Topic
+				- Subheader 3 Inside Header 3
+					- Subsubheader 1 inside Subheader 3
+```
+
 ### @slug, @s
 
 Slug words as alternative topic file identifier. Use next words to create a slug. For example, "@s Sample alternative" generates the topic slug: `sample-alternative`.
