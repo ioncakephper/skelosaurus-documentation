@@ -25,7 +25,7 @@ cd website
 cmd /C "set "GIT_USER=ioncakephper" && yarn deploy"
 ```
 
-View Skelosaurus documentation at `[https://skelosaurus.com](https://skelosaurus.com)` -- CNAME file contains the domain name, and `docusaurus.config.js` is configured so that deployed documentation matches domain name.
+View Skelosaurus documentation at [https://skelosaurus.com](https://skelosaurus.com) -- CNAME file contains the domain name, and `docusaurus.config.js` is configured so that deployed documentation matches domain name.
 
 ## Building documentation skeleton
 
