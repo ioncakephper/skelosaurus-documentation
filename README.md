@@ -27,7 +27,7 @@ cmd /C "set "GIT_USER=ioncakephper" && yarn deploy"
 
 ## Building documentation skeleton
 
-The following describes how to create Skelosaurus documentation skeleton. You would do this to create documentation files. After this, you will edit documentation files as described in **Edit Skelosaurus documentation**.
+The following describes how to create Skelosaurus documentation skeleton. You would do this to create documentation files. After this, you will edit documentation files as described in [**Edit Skelosaurus documentation**](#edit-skelosaurus-documentation).
 
 1. Install `skelo`
 
