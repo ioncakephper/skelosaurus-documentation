@@ -6,7 +6,12 @@ sidebar_label: Build skeleton documentation
 
 <!-- @part src="../../website-parts/build-skeleton-documentation/h1-build-skeleton-documentation-description.md" -->
 
-Incididunt ea ut aute Lorem. Tempor ad cillum sint proident laboris minim et. Excepteur aliqua nostrud consectetur ex culpa proident non ea incididunt nisi velit duis excepteur. Elit consectetur nisi velit tempor nostrud commodo sit. Proident cillum amet proident nisi nulla elit nisi exercitation reprehenderit sint anim consequat qui.
+Building documentation skeleton with Skelosaurus is a fairy straighforward process. You describe sidebar outline in a outline file using Markdown, and use `skelo` to build documentation files `Docusaurus` uses to build the documentation. Turn to Docusaurus to show the documentation on the development server. That's it!
+
+Examine the documentation skeleton and decide what changes to make in sidebar design, topic headers number or content. Make changes to outline file, and rebuild documentation skeleton. When happy with how documentation skeleton looks, you can edit the documentation files using your favorite editor for Markdown.
+
+Content writers familiar with Docusaurus will see the the immediate benefits on development life cycle, and will have no problem using a documentation skelelon with Docusaurus v2.
+
 <!-- @/part -->
 
 <!-- @part src="../../website-parts/build-skeleton-documentation/h1-build-skeleton-documentation-body.md" -->
