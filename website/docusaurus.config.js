@@ -101,7 +101,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ioncakephper/skelosaurus-documentation/edit/master/website/blog/',
+            'https://github.com/ioncakephper/skelosaurus-documentation/edit/master/website/',
             // 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
