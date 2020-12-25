@@ -9,6 +9,18 @@ module.exports = {
   organizationName: 'ioncakephper', // Usually your GitHub org/user name.
   projectName: 'skelosaurus-documentation', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+
+      // Optional: see doc section bellow
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
+    },
     hideableSidebar: true,
     navbar: {
       title: 'Skelosaurus',
@@ -23,12 +35,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {
-          to: 'docs/release-notes/overview',
-          label: 'Release notes',
-          position: 'left',
-        },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        // {
+        //   to: 'docs/release-notes/overview',
+        //   label: 'Release notes',
+        //   position: 'left',
+        // },
+        // { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/ioncakephper/skelosaurus',
           label: 'GitHub',
