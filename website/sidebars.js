@@ -8,11 +8,11 @@ module.exports = {
             "overview",
             "installation",
             "quick-skelo-demo",
-            "style-guide"
         ],
         "Guides": [
             "guides/outline-and-tags",
             "guides/build-skeleton-documentation",
+            "style-guide"
             // "guides/saving-and-loading-topic-content"
         ],
         "API": [

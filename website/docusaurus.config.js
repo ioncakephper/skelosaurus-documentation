@@ -55,9 +55,17 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Markdown Style Guide',
+              to: 'docs/style-guide',
             },
+            {
+              label: 'Outline and Tags',
+              to: 'docs/guides/outline-and-tags'
+            },
+            {
+              label: 'Build skeleton documentation',
+              to: 'docs/guides/build-skeleton-documentation'
+            }
             // {
             //   label: 'Second Doc',
             //   to: 'docs/doc2/',

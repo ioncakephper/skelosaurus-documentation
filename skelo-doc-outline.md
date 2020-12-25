@@ -29,6 +29,7 @@
         - @headers
             - When should I save in part files?
             - Update part files then load
+    - Markdown Style Guide @s style guide @t Markdown Style Guide
 - API @f
     - CLI @t Command Line Interface (CLI)
     - API functions @s api

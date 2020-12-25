@@ -1,6 +1,6 @@
 ---
 id: style-guide
-title: Style Guide
+title: Markdown Style Guide
 sidebar_label: Markdown Style Guide
 ---
 
