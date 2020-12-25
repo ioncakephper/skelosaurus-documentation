@@ -7,7 +7,8 @@ module.exports = {
         "Getting started": [
             "overview",
             "installation",
-            "quick-skelo-demo"
+            "quick-skelo-demo",
+            "style-guide"
         ],
         "Guides": [
             "guides/outline-and-tags",
