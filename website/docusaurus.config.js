@@ -42,6 +42,11 @@ module.exports = {
         // },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
+          label: 'Buy me a coffee',
+          href: 'https://buymeacoffee.com/iongireada',
+          position: 'right'
+        },
+        {
           href: 'https://github.com/ioncakephper/skelosaurus',
           label: 'GitHub',
           position: 'right',
@@ -100,6 +105,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/ioncakephper/skelosaurus',
             },
+            {
+              label: 'Buy me a coffee',
+              href: 'https://buymeacoffee.com/iongireada'
+            }
           ],
         },
       ],
