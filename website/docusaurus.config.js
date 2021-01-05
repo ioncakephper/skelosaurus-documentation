@@ -10,8 +10,8 @@ module.exports = {
   projectName: 'skelosaurus-documentation', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      apiKey: '9368afa5bf11fe6a2cb69616519ab67e',
+      indexName: 'skelosaurus',
 
       // Optional: see doc section bellow
       contextualSearch: true,
