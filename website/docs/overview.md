@@ -6,16 +6,16 @@ sidebar_label: Overview
 
 <!-- @part src="../../website-parts/overview/h1-overview-description.md" -->
 
-Learn about Skelosaurus application, what it does, and how it helps content writers validate documentaton navigation and topic outline. It helps structure a Docusaurus-powered site and eliminates the "now-what?" feeling content writers experience when starting a documentation project.
+Learn about Skelosaurus application, what it does, and how it helps content writers validate documentation navigation and topic outline. It helps structure a Docusaurus-powered site and eliminates the "now-what?" feeling content writers experience when starting a documentation project.
 <!-- @/part -->
 
 <!-- @part src="../../website-parts/overview/h1-overview-body.md" -->
 <!-- Your content goes here, replacing this comment -->
-Skelosaurus is a tool that creates a documentation skeleton for Docusaurus-powered sites. A documentation skeleton has the files, titles, and headers you want in your documentation. What you must provide is the actual content under each header, such as text, list, images, admonitions, tables, etc. Having a documentation skeleton ready gives a tremendous productivity bust to content development team.
+Skelosaurus is a tool that creates a documentation skeleton for Docusaurus-powered sites. A documentation skeleton has the files, titles, and headers you want in your documentation. What you must provide is the actual content under each header, such as text, list, images, admonitions, tables, etc. Having a documentation skeleton ready gives a tremendous productivity bust to the content development team.
 
 ## What does Skelosaurus do?
 
-Skeleton takes an outline file with documentation sidebar outline and generates Docusaurus-compatible files: Markdown `.md` documentation files for each topic and a sidebar description file. Use the resulting files with Docusaurus to create a documentation side.
+Skelosaurus takes an outline file with a documentation sidebar outline and generates Docusaurus-compatible files: Markdown `.md` documentation files for each topic and a sidebar description file. Use the resulting files with Docusaurus to create a documentation side.
 
 ## Essential Skelosaurus features
 
